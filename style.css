@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#first-border{
+    font-size: 65px;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 5px solid ;
+    border-image:linear-gradient(red, tomato ) ;
+    border-image-slice: 1;
+}
+.orange-color{
+    color: orange;
+}
+
+.initial-part{
+    display: flex;
+    margin: 100px;
+
+}
+.half-width{
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-top: 30px;
+  margin-right: 350px;
+
+}
+.first-pic{
+    height: 400px;
+    width: 400px;
+    display: flex;
+}
+.button-link{
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(red, tomato);
+    padding: 10px 20px;
+    font-weight: 500;
+}
+p{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#second-tag{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    
+}

@@ -18,6 +18,8 @@ body{
     display: flex;
     margin: 100px;
 
+
+
 }
 .half-width{
     width: 70%;
@@ -52,11 +54,7 @@ body{
     margin-top: 100px;
     color: lawngreen;
 }
-#second-tag{
-    text-align: center;
-    font-weight: 900;
-    font-size: 50px;
-}
+
 .mission-item{
     width: 300px;
     height: 500px;
@@ -85,10 +83,13 @@ body{
     padding-top: 10px;
 }
 .background-pic{
-    margin-left: 50px;
+    margin-left: 60px;
     display: flex;
     width: 90%;
     height: 60%;
+    
+    
+    
 }
 .limits{
     margin-left: 70px;
@@ -99,4 +100,77 @@ body{
     font-weight: 900;
     font-size: 12mm;
     margin-bottom: 10px;
+    padding-left: 10px;
+    background-image: url(images/shapes/shape-4.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+}
+#bgm{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center left;
+}
+#third-lorem{
+    margin-left: 60px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding-right: 180px;
+}
+#heading4{
+    font-weight: 900;
+    font-size: 12mm;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-image: url(images/shapes/shape-5.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+#third-pic{
+    height: 4in;
+    width: 400px;
+    display: flex;
+    padding-right: 230px;
+    padding-bottom: 70px;
+    
+}
+#bgm2{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: bottom right;
+}
+#fourth-pic{
+    height: 5.5in;
+    width: 5in;
+    display: flex;
+    padding-left: 2.8in;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: top;
+}
+
+#heading5{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    
+}
+#fourth-lorem{
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+footer h1{
+    font-family: cursive;
 }
